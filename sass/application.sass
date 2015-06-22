@@ -1,0 +1,49 @@
+//@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc2/css/bootstrap-glyphicons.css")
+@import bourbon
+@import	libraries/variables
+@import	vendor/bootstrap
+@import	vendor/animate
+
+@import	libraries/buttons
+@import	libraries/breadcrumbs
+@import	libraries/navbar
+@import	libraries/forms
+
+@import	components/gallery_item
+
+
+body
+	padding-top: 70px
+
+.single-container
+	background: white
+	border-radius: $border-radius-base
+	padding:
+		top: 25px
+		bottom: 25px
+
+.section-title
+	border-bottom: 1px solid $text-color
+
+.sidebar-item
+	margin-bottom: 25px
+
+.sidebar-container
+	border-radius: $border-radius-base
+	background: white
+	padding:
+		top: 15px
+		bottom: 15px
+
+.footer
+	background: $navbar-default-bg
+	margin-top: 40px
+	padding-top: 20px
+	color: #666
+	h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6
+		color: white
+	a
+		color: #666
+		&:hover, &:focus
+			color: $link-color
+			text-decoration: none
